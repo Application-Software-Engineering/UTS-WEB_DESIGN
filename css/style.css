@@ -1,0 +1,22 @@
+body {
+    color: white;
+    background-color: #282a36;
+    font-family: monospace;
+}
+a {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(99 102 241);
+    border-radius: 5px;
+    margin: 4px;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+.footer:hover {
+    color: rgb(99 102 241);;
+}

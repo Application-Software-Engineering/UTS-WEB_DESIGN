@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Js</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <center>
+        <h3>Cara Kerja Node JS</h3>
+        <img src="../img/node.png" alt="github SAWARATSUKI/KawaiiLogos" width="150">
+    </center>
+        <p>Dua konsep utama dalam cara kerja Node Js adalah non-blocking dan single thread. Apa maksudnya?</p>
+        <p>Sebagai ilustrasi, sebut saja Program A dan Program B sebagai contoh.</p>
+        <p>Program A merupakan program yang bekerja dengan konsep blocking. Dalam melakukan fungsinya, algoritma A terdiri dari beberapa proses. Adanya sifat blocking tersebut menjadikan algoritma Program A tidak akan lanjut ke tahap berikutnya jika masih ada satu saja proses yang belum terselesaikan.</p>
+        <p>Sementara itu, Program B merupakan program yang bekerja dengan konsep non-blocking. Asumsikan bahwa algoritma pada Program A dan Program B adalah sama. Oleh karena Program B memiliki sifat yang non-blocking, proses pengerjaan instruksi di Program B tetap dapat terjadi meski ada proses sebelumnya yang belum selesai. Dalam kata lain, Program B tidak memerlukan output dari proses sebelumnya untuk melakukan pekerjaannya.</p>
+        <p>Lantas, bagaimana dengan konsep single thread dan multi thread?</p>
+        <p>Seperti misal, Program B juga mengadopsi konsep single thread. Artinya Program B hanya mengalokasikan thread pada proses yang aktif. Sebaliknya, Program A yang mengadopsi konsep multi thread justru akan memberikan thread kepada seluruh proses, baik yang aktif maupun tidak. </p>
+        <p>Berdasarkan ilustrasi di atas, dapat dilihat bahwa Program B yang memiliki sifat non-blocking dan single thread dapat bekerja lebih efisien tanpa harus menggunakan resource yang besar dibandingkan program A. Adapun yang dimaksud dengan thread adalah sekumpulan instruksi yang dieksekusi secara independen.</p>
+</body>
+</html>
